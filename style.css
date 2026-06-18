@@ -1,0 +1,8 @@
+body{font-family:Arial,sans-serif;background:#050510;color:white;margin:0;}
+nav{background:#1b1b3a;padding:1rem;display:flex;gap:1rem;}nav a{color:#f5d76e;text-decoration:none;}
+.hero,main{padding:2rem;max-width:1200px;margin:auto;}footer{text-align:center;padding:1rem;background:#1b1b3a;}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.5rem;}
+.card{background:linear-gradient(145deg,#3b2b7a,#1a103f);border:2px solid #f5d76e;border-radius:18px;padding:1.25rem;transition:.4s;}
+.card:hover{transform:translateY(-10px) scale(1.05) rotate(-1.5deg) skewX(-2deg);}
+.button{background:#f5d76e;color:black;padding:.75rem 1rem;text-decoration:none;border-radius:8px;}
+@media(max-width:768px){nav{flex-direction:column;}}
