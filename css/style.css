@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Smythe&display=swap');
 
 * {
   margin: 0;
@@ -7,44 +7,33 @@
 }
 
 body {
-  font-family: Arial,sans-serif;
-  background: #050510;
-  color: white;
-  margin: 0;
+  font-family: 'Smythe', sans-serif;
+  background: #0d0d1a;
+  color: #fff;
+  line-height: 1.6;
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
-nav {
-  background:#1b1b3a;
-  padding:1rem;
-  display:flex;
-  gap:1rem;
-}
-nav a {
-  color:#f5d76e;
-  text-decoration:none;
-}
-.hero,main {
-  padding:2rem;
-  max-width:1200px;
-  margin:auto;
-}
-footer {
-  text-align:center;
-  padding:1rem;
-  background:#1b1b3a;}
-
-h1, h2, h3 {
-  font-weight: 800;
+  align-items: center; /* centers everything */
 }
 
-footer {
+/* Center all main content */
+main {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
   text-align: center;
-  padding: 2rem 0;
-  opacity: 0.7;
 }
 
+/* Fix image sizes everywhere */
+img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover; /* keeps faces centered */
+  border-radius: 10px;
+}
+
+/* Buttons */
 .btn {
   display: inline-block;
   padding: 0.7rem 1.4rem;
@@ -59,31 +48,30 @@ footer {
 .btn:hover {
   transform: scale(1.05);
 }
-@media(max-width:768px){nav{flex-direction:column;}}
-img {
-  width: 100%;
-  height: 320px; /* or whatever height looks best */
-  object-fit: cover; /* crops images evenly */
-  border-radius: 8px;
+
+/* Detail page card container */
+.detail-container {
+  text-align: center;
 }
+
+.detail-card {
+  width: 350px;
+  margin: 2rem auto;
+  perspective: 1000px;
+}
+
 .card-back ul {
   list-style: none;
   padding: 0;
-  margin: 0;
 }
+
 .card-back li {
-  margin: 0.4rem 0;
+  margin: 0.5rem 0;
   font-weight: 600;
 }
-main {
-  max-width: 1000px;
-  margin: 0 auto; /* centers everything horizontally */
-  padding: 2rem;
+
+footer {
   text-align: center;
-}
-.preview-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
-  justify-items: center;
+  padding: 2rem 0;
+  opacity: 0.7;
 }
