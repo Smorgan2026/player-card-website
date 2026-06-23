@@ -25,16 +25,6 @@ main {
   padding: 2rem;
   text-align: center;
 }
-nav {
-  background:#1b1b3a;
-  padding:1rem;
-  display:flex;
-  gap:1rem;
-}
-nav a {
-  color:#f5d76e;
-  text-decoration:none;
- }
 /* Fix image sizes everywhere */
 img {
   width: 100%;
