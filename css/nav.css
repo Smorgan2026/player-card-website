@@ -1,9 +1,19 @@
 .navbar {
+  width: 100%;
+  max-width: 1000px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 1rem 2rem;
   background: #120d2b;
   border-bottom: 2px solid #f5d76e;
+  margin-bottom: 1rem;
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #f5d76e;
 }
 
 .navbar nav a {
