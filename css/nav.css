@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: #120d2b;
+  border-bottom: 2px solid #f5d76e;
+}
+
+.navbar nav a {
+  margin-left: 1rem;
+  color: #f5d76e;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navbar nav a {
+    display: block;
+    margin: 0.5rem 0;
+  }
+}
