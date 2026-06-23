@@ -64,7 +64,7 @@ img {
   list-style: none;
   padding: 0;
 }
-.highlights {
+.highlights ul {
   list-style-type: none;
 }
 .card-back li {
