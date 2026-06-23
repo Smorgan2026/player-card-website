@@ -76,6 +76,10 @@ img {
   gap: 1.5rem;
   justify-items: center;
  }
+.player-subtitle {
+  color: white;
+  text-align: center;
+}
 footer {
   text-align: center;
   padding: 2rem 0;
