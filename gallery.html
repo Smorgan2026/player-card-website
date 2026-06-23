@@ -1,34 +1,90 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Gallery</title>
-    <link rel='stylesheet' href='css/style.css'>
-    <link rel='stylesheet' href='css/gallery.css'>
-  </head>
-  <body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gallery – Biblical All‑Stars</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/gallery.css">
+  <link rel="stylesheet" href="css/nav.css">
+</head>
+
+<body>
+  <header class="navbar">
+    <h1 class="logo">Biblical All‑Stars</h1>
     <nav>
-      <a href='index.html'>Home</a>
-      <a href='gallery.html'>Gallery</a>
-  </nav>
-    <main>
-      <h1>Gallery</h1>
-      <section class='card-grid'>
-        <article class='card'>
-          <a href='pages/player-david.html'>
-            <h2>David</h2>
-            <p>View full player profile.</p>
-          </a></article><article class='card'>
-            <a href='pages/player-moses.html'>
-              <h2>Moses</h2>
-              <p>View full player profile.</p>
-            </a></article><article class='card'>
-              <a href='pages/player-esther.html'>
-                <h2>Esther</h2>
-                <p>View full player profile.</p>
-              </a>
-            </article>
-      </section>
-    </main>
-    <footer>Shannon Morgan © 2026</footer>
-  </body>
+      <a href="index.html">Home</a>
+      <a href="gallery.html">Gallery</a>
+    </nav>
+  </header>
+
+  <main class="gallery-container">
+    <h2>Player Card Gallery</h2>
+    <p>Explore the full roster of biblical champions, each with unique stats and abilities.</p>
+
+    <section class="card-grid">
+
+      <!-- David Card -->
+      <a href="pages/player-david.html" class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="images/david.png" alt="David">
+            <h3>David</h3>
+            <p>Warrior‑Psalmist</p>
+          </div>
+          <div class="card-back">
+            <h4>Stats</h4>
+            <ul>
+              <li>Faith PPG: 30.5</li>
+              <li>Giant Defeats: 1</li>
+              <li>Psalms: 73</li>
+            </ul>
+          </div>
+        </div>
+      </a>
+
+      <!-- Moses Card -->
+      <a href="pages/player-moses.html" class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="images/moses.png" alt="Moses">
+            <h3>Moses</h3>
+            <p>Exodus Leader</p>
+          </div>
+          <div class="card-back">
+            <h4>Stats</h4>
+            <ul>
+              <li>Miracle APG: 10</li>
+              <li>Plagues: 10</li>
+              <li>Commandments: 10</li>
+            </ul>
+          </div>
+        </div>
+      </a>
+
+      <!-- Esther Card -->
+      <a href="pages/player-esther.html" class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="images/esther.png" alt="Esther">
+            <h3>Esther</h3>
+            <p>Defender of Her People</p>
+          </div>
+          <div class="card-back">
+            <h4>Stats</h4>
+            <ul>
+              <li>Courage: 99</li>
+              <li>Royal Appeals: 3</li>
+              <li>Strategic Assists: Many</li>
+            </ul>
+          </div>
+        </div>
+      </a>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Shannon</p>
+  </footer>
+</body>
 </html>
